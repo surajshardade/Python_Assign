@@ -13,8 +13,13 @@ def find_longest_word(list1):
 def using_map(list1):
     print("max length : {}".format(max(map(len,list1))))
 
+
+def using_list_comprehention(list1):
+    print(max([len(x) for x in list1]))
+
 list1=eval(input("Enter list of word : "))
 len1=find_longest_word(list1)
 using_map(list1)
 print("Max word lenth : {}".format(len1))
+using_list_comprehention(list1)
 
