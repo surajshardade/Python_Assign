@@ -5,7 +5,7 @@ def palindrome(str1):
     for index in range(int(len(str1)/2)):
         if str1[index]!=str1[last-index]:
             return False
-        return True
+    return True
             
 
 
